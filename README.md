@@ -65,7 +65,7 @@
 			filePattern="/springsample/log/springsample-batch.%d{yyyyMMdd}.log">
 			<PatternLayout pattern="%d %-5p [%t] - %m (%C.java:%L)%n"/>
 			<Policies>
-				<CronTriggeringPolicy schedule="0 0 0 * * ?" />
+				<TimeBasedTriggeringPolicy />
 			</Policies>
 			<DefaultRolloverStrategy max="10" />
 		</RollingFile>
