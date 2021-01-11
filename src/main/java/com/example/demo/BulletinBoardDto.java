@@ -9,7 +9,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity                  /* エンティティクラス */
-@Table(name="TB_Board2")  /* テーブル名を定義する */
+@Table(name="TB_Board")  /* テーブル名を定義する */
 public class BulletinBoardDto {
 
 	/*
